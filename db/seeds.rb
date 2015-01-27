@@ -1,0 +1,18 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
+#
+# Examples:
+#
+#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+#   Mayor.create(name: 'Emanuel', city: cities.first)
+Movie.create(title: "Night of the Hunter", year: 1955, plot: "A religious fanatic marries a gullible widow whose young children are reluctant to tell him where their real daddy hid $10,000 he'd stolen in a robbery.", image_url:"http://ia.media-imdb.com/images/M/MV5BMTU5MTMwMzMyN15BMl5BanBnXkFtZTcwODI3Njk3OA@@._V1_SX300.jpg")
+Movie.create(title: "Assault on Precinct 13", year: 1976, plot: "The lone inhabitants of an abandoned police station are under attack by the overwhelming numbers of a seemingly unstoppable street gang.", image_url:"http://ia.media-imdb.com/images/M/MV5BMTQ5MjQ3NzY2OF5BMl5BanBnXkFtZTYwNzkzNDk5._V1_SX300.jpg")
+Movie.create(title:" Viridiana", year: 1961, plot: "Viridiana, a young nun about to take her final vows, pays a visit to her widowed uncle at the request of her Mother Superior.", image_url:"http://ia.media-imdb.com/images/M/MV5BMTQ4ODg4NjE0Nl5BMl5BanBnXkFtZTgwNDQ3NDQ0MjE@._V1_SX300.jpg")
+Movie.create(title: "Stroszek", year: 1977, plot: "Berlin, an alcoholic man, recently released from prison, joins his elderly friend and a prostitute in a determined dream to leave Germany and seek a better life in Wisconsin.", image_url: "http://www.rowthree.com/wp-content/uploads/2010/03/stroszek-poster.jpg" )
+Movie.create(title: "The Sweet Smell of Success", year: 1957, plot: "Powerful but unethical Broadway columnist J.J. Hunsecker coerces unscrupulous press agent Sidney Falco into breaking up his sister's romance with a jazz musician.", image_url: "http://ia.media-imdb.com/images/M/MV5BMjAwNzQ3MjE2Nl5BMl5BanBnXkFtZTcwNjU2NzI5NA@@._V1_SX300.jpg")
+Movie.create(title: "Melancholia", year:2011, plot: "Two sisters find their already strained relationship challenged as a mysterious new planet threatens to collide with Earth.", image_url: "http://ia.media-imdb.com/images/M/MV5BMTk4NjM0MjI3MV5BMl5BanBnXkFtZTcwNjcxMDYzNg@@._V1_SX300.jpg")
+Movie.create(title:"The Killing of a Chinese Bookie", year:1976 , plot:"A proud strip club owner is forced to come to terms with himself as a man, when his gambling addiction gets him in hot water with the mob, who offer him only one alternative." , image_url:"http://ia.media-imdb.com/images/M/MV5BMjE1OTg2OTAwMF5BMl5BanBnXkFtZTgwMTMyNjIzMTE@._V1_SX300.jpg")
+Movie.create(title: "Goodfellas", year: 1990 , plot: "Henry Hill and his friends work their way up through the mob hierarchy." , image_url:"http://ia.media-imdb.com/images/M/MV5BMTY2OTE5MzQ3MV5BMl5BanBnXkFtZTgwMTY2NTYxMTE@._V1_SX300.jpg")
+Movie.create(title:"Barry Lyndon", year: 1975 , plot:"An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England." , image_url: "http://ia.media-imdb.com/images/M/MV5BMTczNzkyMjQ4N15BMl5BanBnXkFtZTcwOTQ2NjU4Mw@@._V1_SX300.jpg")
+Movie.create(title: "Blue Velvet", year: 1986 , plot: "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of criminals who have kidnapped her child." , image_url:"http://ia.media-imdb.com/images/M/MV5BMTczNjE4NTQwNF5BMl5BanBnXkFtZTgwODI3Mjc1MDE@._V1_SX300.jpg")
+Movie.create(title: "Magnolia", year: 1999, plot: "An epic mosaic of interrelated characters in search of love, forgiveness, and meaning in the San Fernando Valley." , image_url: "http://ia.media-imdb.com/images/M/MV5BNzMzMDgyNTIzOF5BMl5BanBnXkFtZTcwOTk0MDg2OQ@@._V1_SX300.jpg")
